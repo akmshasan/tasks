@@ -6,7 +6,7 @@ useDotenv: true
 provider:
   name: aws
   runtime: python3.9
-  region: ${opt:region, 'us-west-2'}
+  region: "us-west-2"
   stage: ${opt:stage, 'development'}
   logRetentionInDays: 90
   environment:
